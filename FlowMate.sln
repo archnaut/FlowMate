@@ -4,6 +4,13 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # SharpDevelop 4.2.1.8805
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presentation", "Presentation\Presentation.csproj", "{AFCA22C1-66A9-4758-9A22-21D6491FF8FF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testing", "Testing\Testing.csproj", "{D65BE3FE-519B-4C48-A6B2-D5358F179B60}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{36CEE67D-2B26-4B9D-A7AB-D443B6819B49}"
+	ProjectSection(SolutionItems) = postProject
+		sonar-project.properties = sonar-project.properties
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -14,5 +21,9 @@ Global
 		{AFCA22C1-66A9-4758-9A22-21D6491FF8FF}.Debug|x86.ActiveCfg = Debug|x86
 		{AFCA22C1-66A9-4758-9A22-21D6491FF8FF}.Release|x86.Build.0 = Release|x86
 		{AFCA22C1-66A9-4758-9A22-21D6491FF8FF}.Release|x86.ActiveCfg = Release|x86
+		{D65BE3FE-519B-4C48-A6B2-D5358F179B60}.Debug|x86.Build.0 = Debug|x86
+		{D65BE3FE-519B-4C48-A6B2-D5358F179B60}.Debug|x86.ActiveCfg = Debug|x86
+		{D65BE3FE-519B-4C48-A6B2-D5358F179B60}.Release|x86.Build.0 = Release|x86
+		{D65BE3FE-519B-4C48-A6B2-D5358F179B60}.Release|x86.ActiveCfg = Release|x86
 	EndGlobalSection
 EndGlobal
