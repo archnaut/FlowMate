@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="utf-8"?>
+<report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.gallio.org/">
+  <testPackage shadowCopy="false" debug="false">
+    <files>
+      <file>D:\projects\FlowMate\Testing\bin\Debug\UnitTests.dll</file>
+    </files>
+    <hintDirectories />
+    <excludedFrameworkIds />
+    <properties />
+  </testPackage>
+  <testModel>
+    <test id="c2722843734a7a54" name="Root" fullName="" isTestCase="false">
+      <codeReference />
+      <codeLocation />
+      <metadata>
+        <entry key="TestKind">
+          <value>Root</value>
+        </entry>
+      </metadata>
+      <children>
+        <test id="3ad073b9201b4698" name="UnitTests" fullName="UnitTests" isTestCase="false">
+          <codeReference assembly="UnitTests, Version=1.0.4715.37567, Culture=neutral, PublicKeyToken=null" />
+          <codeLocation path="D:\projects\FlowMate\Testing\bin\Debug\UnitTests.DLL" />
+          <metadata>
+            <entry key="TestKind">
+              <value>NUnit v2.5.6+ Assembly</value>
+            </entry>
+            <entry key="CodeBase">
+              <value>D:\projects\FlowMate\Testing\bin\Debug\UnitTests.DLL</value>
+            </entry>
+            <entry key="Copyright">
+              <value>Copyright 2012</value>
+            </entry>
+            <entry key="Product">
+              <value>Testing</value>
+            </entry>
+            <entry key="Title">
+              <value>Testing</value>
+            </entry>
+            <entry key="Version">
+              <value>1.0.4715.37567</value>
+            </entry>
+            <entry key="Framework">
+              <value>NUnit v2.6.2.12296</value>
+            </entry>
+            <entry key="File">
+              <value>D:\projects\FlowMate\Testing\bin\Debug\UnitTests.DLL</value>
+            </entry>
+          </metadata>
+          <children>
+            <test id="44d01d273619589b" name="Testing" fullName="UnitTests/Testing" isTestCase="false">
+              <codeReference assembly="UnitTests, Version=1.0.4715.37567, Culture=neutral, PublicKeyToken=null" />
+              <codeLocation path="D:\projects\FlowMate\Testing\bin\Debug\UnitTests.DLL" />
+              <metadata>
+                <entry key="TestKind">
+                  <value>Namespace</value>
+                </entry>
+              </metadata>
+              <children>
+                <test id="2f480223a9b05e57" name="Presentation" fullName="UnitTests/Testing/Presentation" isTestCase="false">
+                  <codeReference assembly="UnitTests, Version=1.0.4715.37567, Culture=neutral, PublicKeyToken=null" />
+                  <codeLocation path="D:\projects\FlowMate\Testing\bin\Debug\UnitTests.DLL" />
+                  <metadata>
+                    <entry key="TestKind">
+                      <value>Namespace</value>
+                    </entry>
+                  </metadata>
+                  <children>
+                    <test id="d1e2862d4651e924" name="WhenFlowMateIsRun" fullName="UnitTests/Testing/Presentation/WhenFlowMateIsRun" isTestCase="false">
+                      <codeReference assembly="UnitTests, Version=1.0.4715.37567, Culture=neutral, PublicKeyToken=null" namespace="Testing.Presentation" type="Testing.Presentation.WhenFlowMateIsRun" />
+                      <codeLocation path="d:\projects\FlowMate\Testing\Presentation\WhenFlowMateIsRun.cs" />
+                      <metadata>
+                        <entry key="TestKind">
+                          <value>Fixture</value>
+                        </entry>
+                      </metadata>
+                      <children>
+                        <test id="e63a6a07b24578c6" name="ShouldAddIconToSystemTray" fullName="UnitTests/Testing/Presentation/WhenFlowMateIsRun/ShouldAddIconToSystemTray" isTestCase="true">
+                          <codeReference assembly="UnitTests, Version=1.0.4715.37567, Culture=neutral, PublicKeyToken=null" namespace="Testing.Presentation" type="Testing.Presentation.WhenFlowMateIsRun" member="ShouldAddIconToSystemTray" />
+                          <codeLocation path="d:\projects\FlowMate\Testing\Presentation\WhenFlowMateIsRun.cs" line="31" />
+                          <metadata>
+                            <entry key="TestKind">
+                              <value>Test</value>
+                            </entry>
+                          </metadata>
+                          <children />
+                          <parameters />
+                        </test>
+                        <test id="d15ba33e7e7ef02a" name="ShouldRunApplication" fullName="UnitTests/Testing/Presentation/WhenFlowMateIsRun/ShouldRunApplication" isTestCase="true">
+                          <codeReference assembly="UnitTests, Version=1.0.4715.37567, Culture=neutral, PublicKeyToken=null" namespace="Testing.Presentation" type="Testing.Presentation.WhenFlowMateIsRun" member="ShouldRunApplication" />
+                          <codeLocation path="d:\projects\FlowMate\Testing\Presentation\WhenFlowMateIsRun.cs" line="37" />
+                          <metadata>
+                            <entry key="TestKind">
+                              <value>Test</value>
+                            </entry>
+                          </metadata>
+                          <children />
+                          <parameters />
+                        </test>
+                      </children>
+                      <parameters />
+                    </test>
+                    <test id="466add6363b543f2" name="WhenIconIsAddedToSystemTray" fullName="UnitTests/Testing/Presentation/WhenIconIsAddedToSystemTray" isTestCase="false">
+                      <codeReference assembly="UnitTests, Version=1.0.4715.37567, Culture=neutral, PublicKeyToken=null" namespace="Testing.Presentation" type="Testing.Presentation.WhenIconIsAddedToSystemTray" />
+                      <codeLocation path="d:\projects\FlowMate\Testing\Presentation\WhenIconIsAddedToSystemTray.cs" />
+                      <metadata>
+                        <entry key="TestKind">
+                          <value>Fixture</value>
+                        </entry>
+                      </metadata>
+                      <children>
+                        <test id="1663bd737732222e" name="ShouldCreateTaskbarIcon" fullName="UnitTests/Testing/Presentation/WhenIconIsAddedToSystemTray/ShouldCreateTaskbarIcon" isTestCase="true">
+                          <codeReference assembly="UnitTests, Version=1.0.4715.37567, Culture=neutral, PublicKeyToken=null" namespace="Testing.Presentation" type="Testing.Presentation.WhenIconIsAddedToSystemTray" member="ShouldCreateTaskbarIcon" />
+                          <codeLocation path="d:\projects\FlowMate\Testing\Presentation\WhenIconIsAddedToSystemTray.cs" line="15" />
+                          <metadata>
+                            <entry key="TestKind">
+                              <value>Test</value>
+                            </entry>
+                          </metadata>
+                          <children />
+                          <parameters />
+                        </test>
+                      </children>
+                      <parameters />
+                    </test>
+                  </children>
+                  <parameters />
+                </test>
+              </children>
+              <parameters />
+            </test>
+          </children>
+          <parameters />
+        </test>
+      </children>
+      <parameters />
+    </test>
+    <annotations />
+  </testModel>
+  <testPackageRun startTime="2012-11-29T18:35:00.1706059-06:00" endTime="2012-11-29T18:35:01.6956931-06:00">
+    <testStepRun startTime="2012-11-29T18:35:01.1256605-06:00" endTime="2012-11-29T18:35:01.6956931-06:00">
+      <testStep id="47faaac784ca6186" name="Root" fullName="" testId="c2722843734a7a54" isPrimary="true" isTestCase="false" isDynamic="false">
+        <codeReference />
+        <codeLocation />
+        <metadata>
+          <entry key="TestKind">
+            <value>Root</value>
+          </entry>
+        </metadata>
+      </testStep>
+      <children>
+        <testStepRun startTime="2012-11-29T18:35:01.1456617-06:00" endTime="2012-11-29T18:35:01.6566909-06:00">
+          <testStep id="61e4e919882aedd4" name="UnitTests" fullName="UnitTests" testId="3ad073b9201b4698" isPrimary="true" isTestCase="false" isDynamic="false">
+            <codeReference assembly="UnitTests, Version=1.0.4715.37567, Culture=neutral, PublicKeyToken=null" />
+            <codeLocation path="D:\projects\FlowMate\Testing\bin\Debug\UnitTests.DLL" />
+            <metadata>
+              <entry key="TestKind">
+                <value>NUnit v2.5.6+ Assembly</value>
+              </entry>
+              <entry key="CodeBase">
+                <value>D:\projects\FlowMate\Testing\bin\Debug\UnitTests.DLL</value>
+              </entry>
+              <entry key="Copyright">
+                <value>Copyright 2012</value>
+              </entry>
+              <entry key="Product">
+                <value>Testing</value>
+              </entry>
+              <entry key="Title">
+                <value>Testing</value>
+              </entry>
+              <entry key="Version">
+                <value>1.0.4715.37567</value>
+              </entry>
+              <entry key="Framework">
+                <value>NUnit v2.6.2.12296</value>
+              </entry>
+              <entry key="File">
+                <value>D:\projects\FlowMate\Testing\bin\Debug\UnitTests.DLL</value>
+              </entry>
+            </metadata>
+          </testStep>
+          <children>
+            <testStepRun startTime="2012-11-29T18:35:01.1486618-06:00" endTime="2012-11-29T18:35:01.6526907-06:00">
+              <testStep id="c49f2a6e0fe7f393" name="Testing" fullName="UnitTests/Testing" testId="44d01d273619589b" isPrimary="true" isTestCase="false" isDynamic="false">
+                <codeReference assembly="UnitTests, Version=1.0.4715.37567, Culture=neutral, PublicKeyToken=null" />
+                <codeLocation path="D:\projects\FlowMate\Testing\bin\Debug\UnitTests.DLL" />
+                <metadata>
+                  <entry key="TestKind">
+                    <value>Namespace</value>
+                  </entry>
+                </metadata>
+              </testStep>
+              <children>
+                <testStepRun startTime="2012-11-29T18:35:01.150662-06:00" endTime="2012-11-29T18:35:01.6486904-06:00">
+                  <testStep id="61d83ef784227080" name="Presentation" fullName="UnitTests/Testing/Presentation" testId="2f480223a9b05e57" isPrimary="true" isTestCase="false" isDynamic="false">
+                    <codeReference assembly="UnitTests, Version=1.0.4715.37567, Culture=neutral, PublicKeyToken=null" />
+                    <codeLocation path="D:\projects\FlowMate\Testing\bin\Debug\UnitTests.DLL" />
+                    <metadata>
+                      <entry key="TestKind">
+                        <value>Namespace</value>
+                      </entry>
+                    </metadata>
+                  </testStep>
+                  <children>
+                    <testStepRun startTime="2012-11-29T18:35:01.1536621-06:00" endTime="2012-11-29T18:35:01.3686744-06:00">
+                      <testStep id="aa7a868e25f821ac" name="WhenFlowMateIsRun" fullName="UnitTests/Testing/Presentation/WhenFlowMateIsRun" testId="d1e2862d4651e924" isPrimary="true" isTestCase="false" isDynamic="false">
+                        <codeReference assembly="UnitTests, Version=1.0.4715.37567, Culture=neutral, PublicKeyToken=null" namespace="Testing.Presentation" type="Testing.Presentation.WhenFlowMateIsRun" />
+                        <codeLocation path="d:\projects\FlowMate\Testing\Presentation\WhenFlowMateIsRun.cs" />
+                        <metadata>
+                          <entry key="TestKind">
+                            <value>Fixture</value>
+                          </entry>
+                        </metadata>
+                      </testStep>
+                      <children>
+                        <testStepRun startTime="2012-11-29T18:35:01.1586624-06:00" endTime="2012-11-29T18:35:01.3506734-06:00">
+                          <testStep id="971d75ddc9cfb364" name="ShouldAddIconToSystemTray" fullName="UnitTests/Testing/Presentation/WhenFlowMateIsRun/ShouldAddIconToSystemTray" testId="e63a6a07b24578c6" isPrimary="true" isTestCase="true" isDynamic="false">
+                            <codeReference assembly="UnitTests, Version=1.0.4715.37567, Culture=neutral, PublicKeyToken=null" namespace="Testing.Presentation" type="Testing.Presentation.WhenFlowMateIsRun" member="ShouldAddIconToSystemTray" />
+                            <codeLocation path="d:\projects\FlowMate\Testing\Presentation\WhenFlowMateIsRun.cs" line="31" />
+                            <metadata>
+                              <entry key="TestKind">
+                                <value>Test</value>
+                              </entry>
+                            </metadata>
+                          </testStep>
+                          <children />
+                          <result assertCount="0" duration="0.1885983">
+                            <outcome status="passed" />
+                          </result>
+                          <testLog>
+                            <streams />
+                            <attachments />
+                          </testLog>
+                        </testStepRun>
+                        <testStepRun startTime="2012-11-29T18:35:01.3636741-06:00" endTime="2012-11-29T18:35:01.3666743-06:00">
+                          <testStep id="e3998f74b336c6af" name="ShouldRunApplication" fullName="UnitTests/Testing/Presentation/WhenFlowMateIsRun/ShouldRunApplication" testId="d15ba33e7e7ef02a" isPrimary="true" isTestCase="true" isDynamic="false">
+                            <codeReference assembly="UnitTests, Version=1.0.4715.37567, Culture=neutral, PublicKeyToken=null" namespace="Testing.Presentation" type="Testing.Presentation.WhenFlowMateIsRun" member="ShouldRunApplication" />
+                            <codeLocation path="d:\projects\FlowMate\Testing\Presentation\WhenFlowMateIsRun.cs" line="37" />
+                            <metadata>
+                              <entry key="TestKind">
+                                <value>Test</value>
+                              </entry>
+                            </metadata>
+                          </testStep>
+                          <children />
+                          <result assertCount="0" duration="0.0044776999999999994">
+                            <outcome status="passed" />
+                          </result>
+                          <testLog>
+                            <streams />
+                            <attachments />
+                          </testLog>
+                        </testStepRun>
+                      </children>
+                      <result assertCount="0" duration="0.2070522">
+                        <outcome status="passed" />
+                      </result>
+                      <testLog>
+                        <streams />
+                        <attachments />
+                      </testLog>
+                    </testStepRun>
+                    <testStepRun startTime="2012-11-29T18:35:01.3696745-06:00" endTime="2012-11-29T18:35:01.6446902-06:00">
+                      <testStep id="4b391806ff9787a" name="WhenIconIsAddedToSystemTray" fullName="UnitTests/Testing/Presentation/WhenIconIsAddedToSystemTray" testId="466add6363b543f2" isPrimary="true" isTestCase="false" isDynamic="false">
+                        <codeReference assembly="UnitTests, Version=1.0.4715.37567, Culture=neutral, PublicKeyToken=null" namespace="Testing.Presentation" type="Testing.Presentation.WhenIconIsAddedToSystemTray" />
+                        <codeLocation path="d:\projects\FlowMate\Testing\Presentation\WhenIconIsAddedToSystemTray.cs" />
+                        <metadata>
+                          <entry key="TestKind">
+                            <value>Fixture</value>
+                          </entry>
+                        </metadata>
+                      </testStep>
+                      <children>
+                        <testStepRun startTime="2012-11-29T18:35:01.3716746-06:00" endTime="2012-11-29T18:35:01.6386899-06:00">
+                          <testStep id="e628ddb581df7a85" name="ShouldCreateTaskbarIcon" fullName="UnitTests/Testing/Presentation/WhenIconIsAddedToSystemTray/ShouldCreateTaskbarIcon" testId="1663bd737732222e" isPrimary="true" isTestCase="true" isDynamic="false">
+                            <codeReference assembly="UnitTests, Version=1.0.4715.37567, Culture=neutral, PublicKeyToken=null" namespace="Testing.Presentation" type="Testing.Presentation.WhenIconIsAddedToSystemTray" member="ShouldCreateTaskbarIcon" />
+                            <codeLocation path="d:\projects\FlowMate\Testing\Presentation\WhenIconIsAddedToSystemTray.cs" line="15" />
+                            <metadata>
+                              <entry key="TestKind">
+                                <value>Test</value>
+                              </entry>
+                            </metadata>
+                          </testStep>
+                          <children />
+                          <result assertCount="0" duration="0.2599527">
+                            <outcome status="failed" category="error" />
+                          </result>
+                          <testLog>
+                            <streams>
+                              <stream name="Failures">
+                                <body>
+                                  <contents>
+                                    <section name="Message">
+                                      <contents>
+                                        <text><![CDATA[System.InvalidOperationException : The calling thread must be STA, because many UI components require this.]]></text>
+                                      </contents>
+                                    </section>
+                                    <section name="Stack Trace">
+                                      <contents>
+                                        <marker class="StackTrace">
+                                          <contents>
+                                            <text><![CDATA[   at System.Windows.Input.InputManager..ctor()
+   at System.Windows.Input.InputManager.GetCurrentInputManagerImpl()
+   at System.Windows.Input.InputManager.get_Current()
+   at System.Windows.Input.KeyboardNavigation..ctor()
+   at System.Windows.FrameworkElement.FrameworkServices..ctor()
+   at System.Windows.FrameworkElement.EnsureFrameworkServices()
+   at System.Windows.FrameworkElement..ctor()
+   at Hardcodet.Wpf.TaskbarNotification.TaskbarIcon..ctor() in C:\Users\alexey\Downloads\wpf-notifyicon\wpf-notifyicon\NotifyIconWpf\TaskbarIcon.cs:line 121
+   at Presentation.SystemTray.Add(Icon icon) in d:\projects\FlowMate\Presentation\SystemTray.cs:line 21
+   at Testing.Presentation.WhenIconIsAddedToSystemTray.ShouldCreateTaskbarIcon() in d:\projects\FlowMate\Testing\Presentation\WhenIconIsAddedToSystemTray.cs:line 22]]></text>
+                                          </contents>
+                                          <attributes />
+                                        </marker>
+                                      </contents>
+                                    </section>
+                                  </contents>
+                                </body>
+                              </stream>
+                            </streams>
+                            <attachments />
+                          </testLog>
+                        </testStepRun>
+                      </children>
+                      <result assertCount="0" duration="0.26483999999999996">
+                        <outcome status="failed" />
+                      </result>
+                      <testLog>
+                        <streams>
+                          <stream name="Failures">
+                            <body>
+                              <contents>
+                                <section name="Message">
+                                  <contents>
+                                    <text><![CDATA[One or more child tests had errors]]></text>
+                                  </contents>
+                                </section>
+                              </contents>
+                            </body>
+                          </stream>
+                        </streams>
+                        <attachments />
+                      </testLog>
+                    </testStepRun>
+                  </children>
+                  <result assertCount="0" duration="0.4749003">
+                    <outcome status="failed" />
+                  </result>
+                  <testLog>
+                    <streams>
+                      <stream name="Failures">
+                        <body>
+                          <contents>
+                            <section name="Message">
+                              <contents>
+                                <text><![CDATA[One or more child tests had errors]]></text>
+                              </contents>
+                            </section>
+                          </contents>
+                        </body>
+                      </stream>
+                    </streams>
+                    <attachments />
+                  </testLog>
+                </testStepRun>
+              </children>
+              <result assertCount="0" duration="0.4764484">
+                <outcome status="failed" />
+              </result>
+              <testLog>
+                <streams>
+                  <stream name="Failures">
+                    <body>
+                      <contents>
+                        <section name="Message">
+                          <contents>
+                            <text><![CDATA[One or more child tests had errors]]></text>
+                          </contents>
+                        </section>
+                      </contents>
+                    </body>
+                  </stream>
+                </streams>
+                <attachments />
+              </testLog>
+            </testStepRun>
+          </children>
+          <result assertCount="0" duration="0.47810179999999997">
+            <outcome status="failed" />
+          </result>
+          <testLog>
+            <streams>
+              <stream name="Failures">
+                <body>
+                  <contents>
+                    <section name="Message">
+                      <contents>
+                        <text><![CDATA[One or more child tests had errors]]></text>
+                      </contents>
+                    </section>
+                  </contents>
+                </body>
+              </stream>
+            </streams>
+            <attachments />
+          </testLog>
+        </testStepRun>
+      </children>
+      <result assertCount="0" duration="1.5220449">
+        <outcome status="failed" />
+      </result>
+      <testLog>
+        <streams />
+        <attachments />
+      </testLog>
+    </testStepRun>
+    <statistics assertCount="0" duration="1.5305524" runCount="3" passedCount="2" failedCount="1" inconclusiveCount="0" skippedCount="0" testCount="3" stepCount="9">
+      <outcomeSummaries>
+        <outcomeSummary count="2">
+          <outcome status="passed" />
+        </outcomeSummary>
+        <outcomeSummary count="1">
+          <outcome status="failed" category="error" />
+        </outcomeSummary>
+      </outcomeSummaries>
+    </statistics>
+  </testPackageRun>
+  <logEntries>
+    <logEntry severity="error" message="An unhandled exception occurred.&#xD;&#xA;System.AppDomainUnloadedException: Attempted to access an unloaded AppDomain.&#xA;HResult: -2146234348&#xD;&#xA;" />
+  </logEntries>
+</report>

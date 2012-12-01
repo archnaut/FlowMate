@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="StyleCopLaunch" ToolsVersion="3.5">
+    <PropertyGroup>
+        <ProjectRoot>D:\projects\FlowMate</ProjectRoot>
+        <StyleCopRoot>D:\projects\FlowMate\.sonar\StyleCop-4.7.34.0</StyleCopRoot>
+    </PropertyGroup>
+    <UsingTask TaskName="StyleCopTask" AssemblyFile="$(StyleCopRoot)\StyleCop.dll"></UsingTask>
+    <ItemGroup>
+        <Project Include="D:\projects\FlowMate\Presentation\Presentation.csproj"></Project>
+    </ItemGroup>
+    <Target Name="StyleCopLaunch">
+        <CreateItem Include="%(Project.RootDir)%(Project.Directory)**\*.cs">
+            <Output ItemName="SourceAnalysisFiles" TaskParameter="Include"></Output>
+        </CreateItem>
+        <StyleCopTask MaxViolationCount="-1" OverrideSettingsFile="D:\projects\FlowMate\Presentation\.sonar\sonar.StyleCop"
+            OutputFile="D:\projects\FlowMate\Presentation\.sonar\stylecop-report.xml"
+            TreatErrorsAsWarnings="true" ForceFullAnalysis="true"
+            SourceFiles="@(SourceAnalysisFiles);@(CSFile)"
+            ProjectFullPath="D:\projects\FlowMate\FlowMate.sln"></StyleCopTask>
+    </Target>
+</Project>

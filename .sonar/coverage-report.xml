@@ -1,0 +1,75 @@
+<PartCoverReport version="4.0" date="2012-11-29T18:35:02.8237577-06:00">
+ <File id="1" url="d:\projects\FlowMate\Presentation\ApplicationAdapter.cs" />
+ <File id="2" url="d:\projects\FlowMate\Presentation\FlowMate.cs" />
+ <File id="3" url="d:\projects\FlowMate\Presentation\Program.cs" />
+ <File id="4" url="d:\projects\FlowMate\Presentation\SystemTray.cs" />
+ <File id="5" url="d:\projects\FlowMate\Presentation\ResourceService.cs" />
+ <Assembly id="1" name="Presentation" module="D:\projects\FlowMate\Testing\bin\Debug\Presentation.exe" domain="IsolatedAppDomainHost" domainIdx="1" />
+ <Type asmref="1" name="Presentation.ApplicationAdapter" flags="0">
+  <Method methoddef="100663298" name="Run" sig="void  ()" bodysize="15" flags="0" iflags="0">
+   <pt visit="0" pos="0" len="1" fid="1" sl="11" sc="3" el="11" ec="4" />
+   <pt visit="0" pos="1" len="12" fid="1" sl="12" sc="4" el="12" ec="23" />
+   <pt visit="0" pos="13" len="2" fid="1" sl="13" sc="3" el="13" ec="4" />
+  </Method>
+  <Method methoddef="100663299" name=".ctor" sig="void  ()" bodysize="20" flags="0" iflags="0">
+   <pt visit="0" pos="0" len="11" fid="1" sl="8" sc="3" el="8" ec="56" />
+   <pt visit="0" pos="11" len="9" />
+  </Method>
+ </Type>
+ <Type asmref="1" name="Presentation.FlowMate" flags="0">
+  <Method methoddef="100663300" name=".ctor" sig="void  ()" bodysize="26" flags="0" iflags="0">
+   <pt visit="0" pos="0" len="22" fid="2" sl="13" sc="3" el="13" ec="92" />
+   <pt visit="0" pos="22" len="1" fid="2" sl="13" sc="92" el="13" ec="93" />
+   <pt visit="0" pos="23" len="3" fid="2" sl="13" sc="93" el="13" ec="94" />
+  </Method>
+  <Method methoddef="100663301" name=".ctor" sig="void  (Presentation.IApplication, Presentation.IResourceService, Presentation.ISystemTray)" bodysize="32" flags="0" iflags="0">
+   <pt visit="2" pos="0" len="7" fid="2" sl="15" sc="3" el="15" ec="104" />
+   <pt visit="2" pos="7" len="1" fid="2" sl="16" sc="3" el="16" ec="4" />
+   <pt visit="2" pos="8" len="7" fid="2" sl="17" sc="4" el="17" ec="39" />
+   <pt visit="2" pos="15" len="7" fid="2" sl="18" sc="4" el="18" ec="29" />
+   <pt visit="2" pos="22" len="7" fid="2" sl="19" sc="4" el="19" ec="31" />
+   <pt visit="2" pos="29" len="3" fid="2" sl="20" sc="3" el="20" ec="4" />
+  </Method>
+  <Method methoddef="100663302" name="Run" sig="void  ()" bodysize="43" flags="0" iflags="0">
+   <pt visit="2" pos="0" len="1" fid="2" sl="23" sc="3" el="23" ec="4" />
+   <pt visit="2" pos="1" len="28" fid="2" sl="24" sc="4" el="24" ec="65" />
+   <pt visit="2" pos="29" len="12" fid="2" sl="25" sc="4" el="25" ec="23" />
+   <pt visit="2" pos="41" len="2" fid="2" sl="26" sc="3" el="26" ec="4" />
+  </Method>
+ </Type>
+ <Type asmref="1" name="Presentation.Program" flags="0">
+  <Method methoddef="100663305" name="Main" sig="void  ()" bodysize="27" flags="0" iflags="0">
+   <pt visit="0" pos="0" len="1" fid="3" sl="13" sc="28" el="13" ec="29" />
+   <pt visit="0" pos="1" len="6" fid="3" sl="14" sc="4" el="14" ec="34" />
+   <pt visit="0" pos="7" len="7" fid="3" sl="15" sc="4" el="15" ec="19" />
+   <pt visit="0" pos="14" len="13" fid="3" sl="16" sc="3" el="16" ec="4" />
+  </Method>
+  <Method methoddef="100663306" name=".ctor" sig="void  ()" bodysize="8" flags="0" iflags="0" />
+ </Type>
+ <Type asmref="1" name="Presentation.SystemTray" flags="0">
+  <Method methoddef="100663307" name=".ctor" sig="void  ()" bodysize="16" flags="0" iflags="0">
+   <pt visit="0" pos="0" len="12" fid="4" sl="12" sc="3" el="12" ec="52" />
+   <pt visit="0" pos="12" len="1" fid="4" sl="12" sc="52" el="12" ec="53" />
+   <pt visit="0" pos="13" len="3" fid="4" sl="12" sc="53" el="12" ec="54" />
+  </Method>
+  <Method methoddef="100663308" name=".ctor" sig="void  (Hardcodet.Wpf.TaskbarNotification.TaskbarIcon)" bodysize="18" flags="0" iflags="0">
+   <pt visit="1" pos="0" len="7" fid="4" sl="14" sc="3" el="14" ec="52" />
+   <pt visit="1" pos="7" len="1" fid="4" sl="14" sc="52" el="14" ec="53" />
+   <pt visit="1" pos="8" len="7" fid="4" sl="15" sc="4" el="15" ec="27" />
+   <pt visit="1" pos="15" len="3" fid="4" sl="16" sc="3" el="16" ec="4" />
+  </Method>
+  <Method methoddef="100663309" name="Add" sig="void  (System.Drawing.Icon)" bodysize="41" flags="0" iflags="0">
+   <pt visit="1" pos="0" len="1" fid="4" sl="19" sc="3" el="19" ec="4" />
+   <pt visit="1" pos="1" len="27" fid="4" sl="20" sc="4" el="20" ec="49" />
+   <pt visit="0" pos="28" len="13" fid="4" sl="21" sc="3" el="21" ec="4" />
+  </Method>
+ </Type>
+ <Type asmref="1" name="Presentation.ResourceService" flags="0">
+  <Method methoddef="100663310" name="LoadIcon" sig="System.Drawing.Icon  (string)" bodysize="24" flags="0" iflags="0">
+   <pt visit="0" pos="0" len="1" fid="5" sl="9" sc="3" el="9" ec="4" />
+   <pt visit="0" pos="1" len="9" fid="5" sl="10" sc="4" el="10" ec="30" />
+   <pt visit="0" pos="10" len="14" fid="5" sl="11" sc="3" el="11" ec="4" />
+  </Method>
+  <Method methoddef="100663311" name=".ctor" sig="void  ()" bodysize="8" flags="0" iflags="0" />
+ </Type>
+</PartCoverReport>

@@ -1,0 +1,5 @@
+<StyleCopViolations>
+  <Violation Section="Root.Testing.Presentation.WhenFlowMateIsRun._application" LineNumber="11" Source="D:\projects\FlowMate\Testing\Presentation\WhenFlowMateIsRun.cs" RuleNamespace="StyleCop.CSharp.NamingRules" Rule="FieldNamesMustNotBeginWithUnderscore" RuleId="SA1309">Field names must not start with an underscore.</Violation>
+  <Violation Section="Root.Testing.Presentation.WhenFlowMateIsRun._systemTray" LineNumber="12" Source="D:\projects\FlowMate\Testing\Presentation\WhenFlowMateIsRun.cs" RuleNamespace="StyleCop.CSharp.NamingRules" Rule="FieldNamesMustNotBeginWithUnderscore" RuleId="SA1309">Field names must not start with an underscore.</Violation>
+  <Violation Section="Root.Testing.Presentation.WhenFlowMateIsRun._trayIcon" LineNumber="13" Source="D:\projects\FlowMate\Testing\Presentation\WhenFlowMateIsRun.cs" RuleNamespace="StyleCop.CSharp.NamingRules" Rule="FieldNamesMustNotBeginWithUnderscore" RuleId="SA1309">Field names must not start with an underscore.</Violation>
+</StyleCopViolations>

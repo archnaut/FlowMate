@@ -1,0 +1,7 @@
+<StyleCopViolations>
+  <Violation Section="Root.Presentation.ApplicationAdapter._application" LineNumber="8" Source="D:\projects\FlowMate\Presentation\ApplicationAdapter.cs" RuleNamespace="StyleCop.CSharp.NamingRules" Rule="FieldNamesMustNotBeginWithUnderscore" RuleId="SA1309">Field names must not start with an underscore.</Violation>
+  <Violation Section="Root.Presentation.FlowMate._application" LineNumber="9" Source="D:\projects\FlowMate\Presentation\FlowMate.cs" RuleNamespace="StyleCop.CSharp.NamingRules" Rule="FieldNamesMustNotBeginWithUnderscore" RuleId="SA1309">Field names must not start with an underscore.</Violation>
+  <Violation Section="Root.Presentation.FlowMate._resourceService" LineNumber="10" Source="D:\projects\FlowMate\Presentation\FlowMate.cs" RuleNamespace="StyleCop.CSharp.NamingRules" Rule="FieldNamesMustNotBeginWithUnderscore" RuleId="SA1309">Field names must not start with an underscore.</Violation>
+  <Violation Section="Root.Presentation.FlowMate._systemTray" LineNumber="11" Source="D:\projects\FlowMate\Presentation\FlowMate.cs" RuleNamespace="StyleCop.CSharp.NamingRules" Rule="FieldNamesMustNotBeginWithUnderscore" RuleId="SA1309">Field names must not start with an underscore.</Violation>
+  <Violation Section="Root.Presentation.SystemTray._trayIcons" LineNumber="10" Source="D:\projects\FlowMate\Presentation\SystemTray.cs" RuleNamespace="StyleCop.CSharp.NamingRules" Rule="FieldNamesMustNotBeginWithUnderscore" RuleId="SA1309">Field names must not start with an underscore.</Violation>
+</StyleCopViolations>
