@@ -137,9 +137,9 @@
     </test>
     <annotations />
   </testModel>
-  <testPackageRun startTime="2012-11-29T18:35:00.1706059-06:00" endTime="2012-11-29T18:35:01.6956931-06:00">
-    <testStepRun startTime="2012-11-29T18:35:01.1256605-06:00" endTime="2012-11-29T18:35:01.6956931-06:00">
-      <testStep id="47faaac784ca6186" name="Root" fullName="" testId="c2722843734a7a54" isPrimary="true" isTestCase="false" isDynamic="false">
+  <testPackageRun startTime="2012-11-30T20:20:09.410719-06:00" endTime="2012-11-30T20:20:11.8648594-06:00">
+    <testStepRun startTime="2012-11-30T20:20:10.930806-06:00" endTime="2012-11-30T20:20:11.8648594-06:00">
+      <testStep id="e9dd805a46175007" name="Root" fullName="" testId="c2722843734a7a54" isPrimary="true" isTestCase="false" isDynamic="false">
         <codeReference />
         <codeLocation />
         <metadata>
@@ -149,8 +149,8 @@
         </metadata>
       </testStep>
       <children>
-        <testStepRun startTime="2012-11-29T18:35:01.1456617-06:00" endTime="2012-11-29T18:35:01.6566909-06:00">
-          <testStep id="61e4e919882aedd4" name="UnitTests" fullName="UnitTests" testId="3ad073b9201b4698" isPrimary="true" isTestCase="false" isDynamic="false">
+        <testStepRun startTime="2012-11-30T20:20:10.9558074-06:00" endTime="2012-11-30T20:20:11.8158566-06:00">
+          <testStep id="bd05e37ebf538b80" name="UnitTests" fullName="UnitTests" testId="3ad073b9201b4698" isPrimary="true" isTestCase="false" isDynamic="false">
             <codeReference assembly="UnitTests, Version=1.0.4715.37567, Culture=neutral, PublicKeyToken=null" />
             <codeLocation path="D:\projects\FlowMate\Testing\bin\Debug\UnitTests.DLL" />
             <metadata>
@@ -181,8 +181,8 @@
             </metadata>
           </testStep>
           <children>
-            <testStepRun startTime="2012-11-29T18:35:01.1486618-06:00" endTime="2012-11-29T18:35:01.6526907-06:00">
-              <testStep id="c49f2a6e0fe7f393" name="Testing" fullName="UnitTests/Testing" testId="44d01d273619589b" isPrimary="true" isTestCase="false" isDynamic="false">
+            <testStepRun startTime="2012-11-30T20:20:10.9588076-06:00" endTime="2012-11-30T20:20:11.8118564-06:00">
+              <testStep id="12913c2b8a05a905" name="Testing" fullName="UnitTests/Testing" testId="44d01d273619589b" isPrimary="true" isTestCase="false" isDynamic="false">
                 <codeReference assembly="UnitTests, Version=1.0.4715.37567, Culture=neutral, PublicKeyToken=null" />
                 <codeLocation path="D:\projects\FlowMate\Testing\bin\Debug\UnitTests.DLL" />
                 <metadata>
@@ -192,8 +192,8 @@
                 </metadata>
               </testStep>
               <children>
-                <testStepRun startTime="2012-11-29T18:35:01.150662-06:00" endTime="2012-11-29T18:35:01.6486904-06:00">
-                  <testStep id="61d83ef784227080" name="Presentation" fullName="UnitTests/Testing/Presentation" testId="2f480223a9b05e57" isPrimary="true" isTestCase="false" isDynamic="false">
+                <testStepRun startTime="2012-11-30T20:20:10.9608077-06:00" endTime="2012-11-30T20:20:11.8078561-06:00">
+                  <testStep id="37eaafc01f10744f" name="Presentation" fullName="UnitTests/Testing/Presentation" testId="2f480223a9b05e57" isPrimary="true" isTestCase="false" isDynamic="false">
                     <codeReference assembly="UnitTests, Version=1.0.4715.37567, Culture=neutral, PublicKeyToken=null" />
                     <codeLocation path="D:\projects\FlowMate\Testing\bin\Debug\UnitTests.DLL" />
                     <metadata>
@@ -203,8 +203,8 @@
                     </metadata>
                   </testStep>
                   <children>
-                    <testStepRun startTime="2012-11-29T18:35:01.1536621-06:00" endTime="2012-11-29T18:35:01.3686744-06:00">
-                      <testStep id="aa7a868e25f821ac" name="WhenFlowMateIsRun" fullName="UnitTests/Testing/Presentation/WhenFlowMateIsRun" testId="d1e2862d4651e924" isPrimary="true" isTestCase="false" isDynamic="false">
+                    <testStepRun startTime="2012-11-30T20:20:10.9628078-06:00" endTime="2012-11-30T20:20:11.2668252-06:00">
+                      <testStep id="67cc57809e54633" name="WhenFlowMateIsRun" fullName="UnitTests/Testing/Presentation/WhenFlowMateIsRun" testId="d1e2862d4651e924" isPrimary="true" isTestCase="false" isDynamic="false">
                         <codeReference assembly="UnitTests, Version=1.0.4715.37567, Culture=neutral, PublicKeyToken=null" namespace="Testing.Presentation" type="Testing.Presentation.WhenFlowMateIsRun" />
                         <codeLocation path="d:\projects\FlowMate\Testing\Presentation\WhenFlowMateIsRun.cs" />
                         <metadata>
@@ -214,8 +214,8 @@
                         </metadata>
                       </testStep>
                       <children>
-                        <testStepRun startTime="2012-11-29T18:35:01.1586624-06:00" endTime="2012-11-29T18:35:01.3506734-06:00">
-                          <testStep id="971d75ddc9cfb364" name="ShouldAddIconToSystemTray" fullName="UnitTests/Testing/Presentation/WhenFlowMateIsRun/ShouldAddIconToSystemTray" testId="e63a6a07b24578c6" isPrimary="true" isTestCase="true" isDynamic="false">
+                        <testStepRun startTime="2012-11-30T20:20:10.9688082-06:00" endTime="2012-11-30T20:20:11.2468241-06:00">
+                          <testStep id="ea61f5ba72b6cdf4" name="ShouldAddIconToSystemTray" fullName="UnitTests/Testing/Presentation/WhenFlowMateIsRun/ShouldAddIconToSystemTray" testId="e63a6a07b24578c6" isPrimary="true" isTestCase="true" isDynamic="false">
                             <codeReference assembly="UnitTests, Version=1.0.4715.37567, Culture=neutral, PublicKeyToken=null" namespace="Testing.Presentation" type="Testing.Presentation.WhenFlowMateIsRun" member="ShouldAddIconToSystemTray" />
                             <codeLocation path="d:\projects\FlowMate\Testing\Presentation\WhenFlowMateIsRun.cs" line="31" />
                             <metadata>
@@ -225,7 +225,7 @@
                             </metadata>
                           </testStep>
                           <children />
-                          <result assertCount="0" duration="0.1885983">
+                          <result assertCount="0" duration="0.2743953">
                             <outcome status="passed" />
                           </result>
                           <testLog>
@@ -233,8 +233,8 @@
                             <attachments />
                           </testLog>
                         </testStepRun>
-                        <testStepRun startTime="2012-11-29T18:35:01.3636741-06:00" endTime="2012-11-29T18:35:01.3666743-06:00">
-                          <testStep id="e3998f74b336c6af" name="ShouldRunApplication" fullName="UnitTests/Testing/Presentation/WhenFlowMateIsRun/ShouldRunApplication" testId="d15ba33e7e7ef02a" isPrimary="true" isTestCase="true" isDynamic="false">
+                        <testStepRun startTime="2012-11-30T20:20:11.2598248-06:00" endTime="2012-11-30T20:20:11.262825-06:00">
+                          <testStep id="45294317836d1c01" name="ShouldRunApplication" fullName="UnitTests/Testing/Presentation/WhenFlowMateIsRun/ShouldRunApplication" testId="d15ba33e7e7ef02a" isPrimary="true" isTestCase="true" isDynamic="false">
                             <codeReference assembly="UnitTests, Version=1.0.4715.37567, Culture=neutral, PublicKeyToken=null" namespace="Testing.Presentation" type="Testing.Presentation.WhenFlowMateIsRun" member="ShouldRunApplication" />
                             <codeLocation path="d:\projects\FlowMate\Testing\Presentation\WhenFlowMateIsRun.cs" line="37" />
                             <metadata>
@@ -244,7 +244,7 @@
                             </metadata>
                           </testStep>
                           <children />
-                          <result assertCount="0" duration="0.0044776999999999994">
+                          <result assertCount="0" duration="0.0044418">
                             <outcome status="passed" />
                           </result>
                           <testLog>
@@ -253,7 +253,7 @@
                           </testLog>
                         </testStepRun>
                       </children>
-                      <result assertCount="0" duration="0.2070522">
+                      <result assertCount="0" duration="0.2940407">
                         <outcome status="passed" />
                       </result>
                       <testLog>
@@ -261,8 +261,8 @@
                         <attachments />
                       </testLog>
                     </testStepRun>
-                    <testStepRun startTime="2012-11-29T18:35:01.3696745-06:00" endTime="2012-11-29T18:35:01.6446902-06:00">
-                      <testStep id="4b391806ff9787a" name="WhenIconIsAddedToSystemTray" fullName="UnitTests/Testing/Presentation/WhenIconIsAddedToSystemTray" testId="466add6363b543f2" isPrimary="true" isTestCase="false" isDynamic="false">
+                    <testStepRun startTime="2012-11-30T20:20:11.2678253-06:00" endTime="2012-11-30T20:20:11.8038559-06:00">
+                      <testStep id="d37ee72f814b97e0" name="WhenIconIsAddedToSystemTray" fullName="UnitTests/Testing/Presentation/WhenIconIsAddedToSystemTray" testId="466add6363b543f2" isPrimary="true" isTestCase="false" isDynamic="false">
                         <codeReference assembly="UnitTests, Version=1.0.4715.37567, Culture=neutral, PublicKeyToken=null" namespace="Testing.Presentation" type="Testing.Presentation.WhenIconIsAddedToSystemTray" />
                         <codeLocation path="d:\projects\FlowMate\Testing\Presentation\WhenIconIsAddedToSystemTray.cs" />
                         <metadata>
@@ -272,8 +272,8 @@
                         </metadata>
                       </testStep>
                       <children>
-                        <testStepRun startTime="2012-11-29T18:35:01.3716746-06:00" endTime="2012-11-29T18:35:01.6386899-06:00">
-                          <testStep id="e628ddb581df7a85" name="ShouldCreateTaskbarIcon" fullName="UnitTests/Testing/Presentation/WhenIconIsAddedToSystemTray/ShouldCreateTaskbarIcon" testId="1663bd737732222e" isPrimary="true" isTestCase="true" isDynamic="false">
+                        <testStepRun startTime="2012-11-30T20:20:11.2698254-06:00" endTime="2012-11-30T20:20:11.7968555-06:00">
+                          <testStep id="9ff0191a11479af4" name="ShouldCreateTaskbarIcon" fullName="UnitTests/Testing/Presentation/WhenIconIsAddedToSystemTray/ShouldCreateTaskbarIcon" testId="1663bd737732222e" isPrimary="true" isTestCase="true" isDynamic="false">
                             <codeReference assembly="UnitTests, Version=1.0.4715.37567, Culture=neutral, PublicKeyToken=null" namespace="Testing.Presentation" type="Testing.Presentation.WhenIconIsAddedToSystemTray" member="ShouldCreateTaskbarIcon" />
                             <codeLocation path="d:\projects\FlowMate\Testing\Presentation\WhenIconIsAddedToSystemTray.cs" line="15" />
                             <metadata>
@@ -283,7 +283,7 @@
                             </metadata>
                           </testStep>
                           <children />
-                          <result assertCount="0" duration="0.2599527">
+                          <result assertCount="0" duration="0.5240903">
                             <outcome status="failed" category="error" />
                           </result>
                           <testLog>
@@ -323,7 +323,7 @@
                           </testLog>
                         </testStepRun>
                       </children>
-                      <result assertCount="0" duration="0.26483999999999996">
+                      <result assertCount="0" duration="0.528938">
                         <outcome status="failed" />
                       </result>
                       <testLog>
@@ -344,7 +344,7 @@
                       </testLog>
                     </testStepRun>
                   </children>
-                  <result assertCount="0" duration="0.4749003">
+                  <result assertCount="0" duration="0.82589859999999993">
                     <outcome status="failed" />
                   </result>
                   <testLog>
@@ -365,7 +365,7 @@
                   </testLog>
                 </testStepRun>
               </children>
-              <result assertCount="0" duration="0.4764484">
+              <result assertCount="0" duration="0.8274765">
                 <outcome status="failed" />
               </result>
               <testLog>
@@ -386,7 +386,7 @@
               </testLog>
             </testStepRun>
           </children>
-          <result assertCount="0" duration="0.47810179999999997">
+          <result assertCount="0" duration="0.8291474">
             <outcome status="failed" />
           </result>
           <testLog>
@@ -407,7 +407,7 @@
           </testLog>
         </testStepRun>
       </children>
-      <result assertCount="0" duration="1.5220449">
+      <result assertCount="0" duration="2.4517222999999997">
         <outcome status="failed" />
       </result>
       <testLog>
@@ -415,7 +415,7 @@
         <attachments />
       </testLog>
     </testStepRun>
-    <statistics assertCount="0" duration="1.5305524" runCount="3" passedCount="2" failedCount="1" inconclusiveCount="0" skippedCount="0" testCount="3" stepCount="9">
+    <statistics assertCount="0" duration="2.4605417999999997" runCount="3" passedCount="2" failedCount="1" inconclusiveCount="0" skippedCount="0" testCount="3" stepCount="9">
       <outcomeSummaries>
         <outcomeSummary count="2">
           <outcome status="passed" />
